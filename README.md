@@ -40,4 +40,4 @@ If you would like to contribute to `OhMyGif`, please feel free to submit a pull 
 
 ## License
 
-`OhMyGif` is distributed under the MIT license. See the [LICENSE](LICENSE) file for more details.
+`OhMyGif` is distributed under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
