@@ -1,18 +1,18 @@
 import SwiftUI
 import ImageIO
 
-struct OhMyGif: View {
+public struct OhMyGif: View {
     private let images: [UIImage]
     private let interval: TimeInterval
     @State private var currentIndex = 0
     @State private var timer: Timer?
 
-    init(name: String, fps: Double = 30) {
+    public init(name: String, fps: Double = 30) {
         self.images = OhMyGif.extractFrames(from: name)
         self.interval = 1 / fps
     }
 
-    var body: some View {
+    public var body: some View {
         Image(uiImage: images[currentIndex])
             .resizable()
             .scaledToFit()
