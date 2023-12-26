@@ -2,6 +2,10 @@
 
 `OhMyGif` is a Swift Package that provides a simple and efficient way to embed and display GIF animations in SwiftUI applications. It utilizes standard SwiftUI components and does not require any third-party libraries.
 
+## Preview
+
+![GIF Preview](https://github.com/ohmydeveloper/OhMyGif/blob/main/Image/preview.gif)
+
 ## Features
 
 - Easily integrates into any SwiftUI application.
